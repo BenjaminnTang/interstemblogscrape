@@ -126,6 +126,10 @@ class BlogCrawler:
 
         out = '```'
         out += f'Title: {article["title"]}\n'
+
+        if article.get('url'):
+            out += f'Link: {article["url"]}\n'
+
         out += f'Author: {article["author"]}\n'
         out += f'Date: {article["raw_date"]}\n'
         out += f'Description: {article["description"]}'
