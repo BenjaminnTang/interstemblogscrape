@@ -74,4 +74,4 @@ async def on_message(message):
                 await message.channel.send(BlogCrawler.format_article(article))
 
 poll_blog.start()
-client.run('NzUwMTMyMzk5NjA1Njc4MTQw.X02FPA.Uwo_5PqlD7UuEnCFCYPx_vkEye4')
+client.run('BOTTOKEN')
