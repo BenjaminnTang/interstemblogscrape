@@ -8,4 +8,4 @@ A discord bot that includes the following commands / functions:
 
 Screenshot demonstration: https://share.getcloudapp.com/JrugkY4L
 
-To get this bot code to connect to your own discord bot, you'll need to set your bot's token as an environment variable called "DISCORD_TOKEN".
+To get this bot code to connect to your own discord bot, you'll need to set your bot's token as an environment variable called "BOTTOKEN".
